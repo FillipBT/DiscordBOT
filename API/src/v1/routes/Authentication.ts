@@ -9,7 +9,7 @@ route.get('/', async (req: Request, res: Response) => {
 })
 
 route.post('/', async (req: TypedRequestBody<{ code: string}>, res: Response) => {
-    Auth(req, response)
+    Auth(req, res)
 })
 
 
